@@ -1,10 +1,7 @@
 <?php
     include __DIR__ . 'partials/home/server.php';
-?>
 
-// head section
-
-<?php
+    // head
     include __DIR__ . '/partials/templates/head';
 ?>
 
