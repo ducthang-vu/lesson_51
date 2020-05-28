@@ -15,12 +15,12 @@
             <header class="my-4">
                 <h1>Details room
                     <?php
-                        echo %$room['room_number'];
+                        echo $room['room_number'];
                     ?>
                 </h1>
             </header>
 
-            <div class="card">
+            <div class="card md-5">
                 <ul class="list-group list-group-flush">
                     <div class="list-group-item">
                         ID: <?php
@@ -33,6 +33,7 @@
                 </ul>
             </div>
 
+            <a href="./lesson_51/index.php">&lt; back to archive</a>
         </div>
     </div>
 </main>
