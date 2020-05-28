@@ -1,7 +1,7 @@
 <?php
 include  __DIR__ .  '/../data/database.php';
 
-//echo 'Hello database';
+//echo 'Hello show';
 
 $sql = "SELECT * FROM `stanze`";
 $result = $conn->query($sql);
