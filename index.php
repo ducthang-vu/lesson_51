@@ -20,6 +20,25 @@
                 <header>
                     <h1>Hotel Rooms</h1>
                 </header>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>floor</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>        
+
+                    <tbody>
+                        <?php
+                            if  (!empty($rooms)) {
+                                foreach($rooms as $room) { 
+                        ?>
+                    </tbody>
+                </table>
             </div>
         </div>
     </main>
